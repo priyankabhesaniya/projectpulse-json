@@ -1,0 +1,81 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "role": "admin",
+      "email": "admin@example.com",
+      "password": "admin123"
+    },
+    {
+      "id": 2,
+      "name": "Manager User",
+      "role": "manager",
+      "email": "manager@example.com",
+      "password": "manager123"
+    },
+    {
+      "email": "admin@wallt.in",
+      "password": "$2a$10$Il514S6SWJxXg8CrmqvAtuqhSb8uzbyO/dxjlJfLvlq46VfRRIPES",
+      "name": "John Mark",
+      "role": "Admin",
+      "id": 3
+    },
+    {
+      "email": "p@gmail.com",
+      "password": "$2a$10$we1NDM8HgGS3egZ2glW4sODEip0Ol0RBPp4FEd8zfheW1qWUQhJQy",
+      "name": "pilu b",
+      "role": "Admin",
+      "id": 4
+    },
+    {
+      "email": "a@gmail.com",
+      "password": "$2a$10$7U0dL37av1XE9lXS2elNkeLqXMftDjOAy8XDHgicvuRFchpFyilJu",
+      "name": "aditi b",
+      "role": "Manager",
+      "id": 5
+    }
+  ],
+  "manager": [],
+  "employee": [
+    {
+      "email": "test@gmail.com",
+      "name": "test employee",
+      "password": "Ars@1234",
+      "phone": "9904190145",
+      "address": "test add must greater",
+      "role": "Employee",
+      "id": 1
+    },
+    {
+      "email": "teset2@gmail.com",
+      "name": "test employee 2",
+      "password": "Ars@1234",
+      "phone": "9904190535",
+      "address": "test 2 employee",
+      "role": "Employee",
+      "id": 2
+    },
+    {
+      "email": "test@gmail.com",
+      "name": "test employee",
+      "password": "Ars@1234",
+      "phone": "9904190145",
+      "address": "test add must greater",
+      "role": "Employee",
+      "id": 3
+    },
+    {
+      "email": "test@gmail.com",
+      "name": "test employee 566",
+      "password": "Ars@1234",
+      "phone": "9904190145",
+      "address": "test add must greater",
+      "role": "Employee",
+      "id": 4
+    }
+  ],
+  "projects": [],
+  "tasks": [],
+  "notifications": []
+}
