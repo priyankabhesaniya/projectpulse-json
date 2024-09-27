@@ -108,35 +108,53 @@ const SECRET_KEY = 'your-secret-key';
 app.use(jsonServer.bodyParser)
 app.use(jsonServer.defaults());
 app.use(cors())
-app.post('/custom-login', async(req, res) => {
- const { email, password, role } = req.body;
+app.post('/custom-login', async (req, res) => {
+  const { email, password, role } = req.body;
 
-  console.log(router.db.get('users'),'gggg');
-  const user = router.db.get('users').find({ email }).value();
+  let user;
+
+  // Fetch the user based on the role and email
+  if (role === 'Admin') {
+    user = router.db.get('admin').find({ email }).value();
+    
+  } else if (role === 'Manager') {
+    user = router.db.get('manager').find({ email }).value();
+  } else if (role === 'Employee') {
+    user = router.db.get('employee').find({ email }).value();
+  }
   console.log("🚀 ~ app.post ~ user:", user)
-
+  // Check if the user exists
   if (!user) {
-    return res.status(401).json({ error: 'Invalid email or password' });
+    return res.status(401).json({ error: 'User not found' });
   }
-  const isMatch = await bcrypt.compare(password, user.password);
-  if (!isMatch) {
-      return res.status(401).json({ error: 'Invalid email or password' });
+  if (user.password !== password) {
+    return res.status(401).json({ error: 'Wrong password entered' });
   }
+  // Password comparison based on the role
+  // if (role === 'Admin') {
+  //   // For Admin, we compare the encrypted password
+  //   const isMatch = await bcrypt.compare(password, user.password);
+  //   if (!isMatch) {
+  //     return res.status(401).json({ error: 'Invalid email or password' });
+  //   }
+  // } else {
+  //   // For Manager and Employee, directly compare the plain-text password
+    // if (user.password !== password) {
+    //   return res.status(401).json({ error: 'Invalid email or password' });
+    // }
+  // }
 
-
-  if (user.role !== role) {
-    return res.status(401).json({ error: 'Invalid role' });
-  }
-
+  // Generate JWT token
   const token = jwt.sign(
     { id: user.id, email: user.email, role: user.role },
     SECRET_KEY,
     { expiresIn: '1h' }
   );
 
+  // Return the token and user data
   return res.status(200).json({ token, user });
 });
-
+ 
 app.db = router.db;
 
 app.use(auth);

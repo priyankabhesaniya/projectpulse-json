@@ -1,5 +1,5 @@
 {
-  "users": [
+  "admin": [
     {
       "id": 1,
       "name": "Admin User",
@@ -22,60 +22,128 @@
       "id": 3
     },
     {
-      "email": "p@gmail.com",
-      "password": "$2a$10$we1NDM8HgGS3egZ2glW4sODEip0Ol0RBPp4FEd8zfheW1qWUQhJQy",
-      "name": "pilu b",
-      "role": "Admin",
-      "id": 4
-    },
-    {
       "email": "a@gmail.com",
       "password": "$2a$10$7U0dL37av1XE9lXS2elNkeLqXMftDjOAy8XDHgicvuRFchpFyilJu",
       "name": "aditi b",
       "role": "Manager",
       "id": 5
+    },
+    {
+      "name": "testa dmin",
+      "email": "testadmin@gmail.com",
+      "password": "Ars@1234",
+      "role": "Admin",
+      "id": 6
     }
   ],
-  "manager": [],
-  "employee": [
+  "manager": [
     {
-      "email": "test@gmail.com",
-      "name": "test employee",
+      "email": "airbrush@mailinator.com",
+      "name": "John Mark",
       "password": "Ars@1234",
-      "phone": "9904190145",
-      "address": "test add must greater",
+      "phone": "9904190909",
+      "address": "rajkot,gujarat",
       "role": "Employee",
       "id": 1
     },
     {
-      "email": "teset2@gmail.com",
-      "name": "test employee 2",
+      "email": "visitor4@yopmail.com",
+      "name": "Deceased manager",
       "password": "Ars@1234",
-      "phone": "9904190535",
-      "address": "test 2 employee",
+      "phone": "7878787878",
+      "address": "ahemdabad,gujarat",
       "role": "Employee",
       "id": 2
     },
     {
-      "email": "test@gmail.com",
-      "name": "test employee",
+      "email": "projectpulse@gmail.com",
+      "name": "project pulse mng",
       "password": "Ars@1234",
-      "phone": "9904190145",
-      "address": "test add must greater",
+      "phone": "9904190856",
+      "address": "Surat,gujarat",
       "role": "Employee",
       "id": 3
     },
     {
-      "email": "test@gmail.com",
-      "name": "test employee 566",
+      "email": "mytest1@gmail.com",
+      "name": "my test mng 1",
       "password": "Ars@1234",
       "phone": "9904190145",
-      "address": "test add must greater",
+      "address": "rajkot,gujarat",
       "role": "Employee",
       "id": 4
+    },
+    {
+      "email": "mark@gmail.com",
+      "name": "mark benjin",
+      "password": "Ars@1234",
+      "phone": "9904190535",
+      "address": "rajkot india",
+      "role": "Employee",
+      "id": 5
     }
   ],
-  "projects": [],
+  "employee": [
+    {
+      "email": "ben@mailinater.com",
+      "name": "test manager 1",
+      "password": "Ars@1234",
+      "phone": "9904190145",
+      "address": "Rajkot,gujarat",
+      "role": "Employee",
+      "id": 1
+    },
+    {
+      "email": "admin@wallt.in",
+      "name": "John Mark",
+      "password": "Ars@1234",
+      "phone": "7878787878",
+      "address": "tytrrrrrrrrrrrrrrrrrry uyytuyu",
+      "role": "Employee",
+      "id": 2
+    },
+    {
+      "email": "p@gmail.com",
+      "name": "John Mark",
+      "password": "Ars@1234",
+      "phone": "7777777777",
+      "address": "rajkot gujarat",
+      "role": "Employee",
+      "id": 3
+    }
+  ],
+  "projects": [
+    {
+      "about": "  <img src={TableTrash} alt=\"Delete\" />  <img src={TableTrash} alt=\"Delete\" />  <img src={TableTrash} alt=\"Delete\" />  <img src={TableTrash} alt=\"Delete\" />",
+      "name": "John Mark",
+      "deadline_date": "2024-09-27T18:30:00.000Z",
+      "start_date": "2024-09-11T18:30:00.000Z",
+      "status": "On Going",
+      "created_by": {
+        "name": "testa dmin",
+        "id": 6
+      },
+      "manager": "",
+      "employe": [],
+      "task": [],
+      "id": 1
+    },
+    {
+      "about": "test pro 2 test pro 2test pro 2test pro 2test pro 2",
+      "name": "test pro 256",
+      "deadline_date": "2024-09-29T18:30:00.000Z",
+      "start_date": "2024-09-10T18:30:00.000Z",
+      "status": "Qued",
+      "created_by": {
+        "name": "testa dmin",
+        "id": 6
+      },
+      "manager": "",
+      "employe": [],
+      "task": [],
+      "id": 2
+    }
+  ],
   "tasks": [],
   "notifications": []
 }
