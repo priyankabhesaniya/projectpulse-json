@@ -1,39 +1,144 @@
 {
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "role": "Admin",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "projects": []
+    },
+    {
+      "id": 2,
+      "name": "Manager User",
+      "role": "Manager",
+      "email": "manager@example.com",
+      "password": "manager123",
+      "projects": []
+    },
+    {
+      "email": "ben@mailinater.com",
+      "name": "test manager 1",
+      "password": "Ars@1234",
+      "phone": "9904190145",
+      "address": "Rajkot,gujarat",
+      "role": "Employee",
+      "id": 5
+    },
+    {
+      "email": "admin@wallt.in",
+      "name": "John Mark",
+      "password": "Ars@1234",
+      "phone": "7878787878",
+      "address": "tytrrrrrrrrrrrrrrrrrry uyytuyu",
+      "role": "Employee",
+      "id": 6
+    },
+    {
+      "email": "sumit2@gmail.com",
+      "password": "$2a$10$DoXXEL8K3IaJKQauO2CGwuSnEONPI1DPkvWAXw9Z9KRRnyPuOsG7K",
+      "name": "Google Summit 2024-Q6",
+      "phone": "7878787878",
+      "address": "rajkot patna",
+      "role": "Employee",
+      "projects": [],
+      "id": 8
+    },
+    {
+      "email": "abhi@gmail.com",
+      "password": "$2a$10$wHzlh2tF.ttKciMJEvM4uebxxmY34XZIdUwj3Klp40SXewRgEvJ1S",
+      "name": "Google Summit 2015",
+      "phone": "7777777777",
+      "address": "trgty,tytyt,tutu",
+      "role": "Employee",
+      "projects": [],
+      "id": 9
+    },
+    {
+      "email": "close@gmail.com",
+      "password": "$2a$10$Yv6sasaCLCC.dkVUgR1dM.Dr.81dXyAe4HpvLdvYb.mjO9GalmNJ.",
+      "name": "my test close",
+      "phone": "9904190856",
+      "address": "rytryyyyyyyyyytytyvggtr",
+      "role": "Employee",
+      "projects": [],
+      "id": 10
+    },
+    {
+      "email": "a9@gmail.com",
+      "password": "$2a$10$5C8854pPXRBxTpsTts4Ll.IZl92XYtMqs6HrvfstRgVSiOuSOUXXS",
+      "name": "Google Summit 2024-Q6",
+      "phone": "7878787878",
+      "address": "jetpur,rajkot",
+      "role": "Employee",
+      "id": 11
+    },
+    {
+      "email": "r09@gmail.com",
+      "password": "$2a$10$q6M.mkinP7kjaCisOs5Td.rEjXpkeGZV2PLV/debtOqJPG4DCB0Qu",
+      "name": "Google Summit 2024-Q6",
+      "phone": "9904190145",
+      "address": "jetpue,rajkot",
+      "role": "Employee",
+      "id": 12
+    },
+    {
+      "email": "pbtest@yopmail.com",
+      "password": "$2a$10$jZ41H2E3OFFzictcU5ZItODlDPrvHhi.yO.53wXW4QrJ/frf97HXi",
+      "name": "test use mail",
+      "phone": "9904190145",
+      "address": "jetpur,rajkot",
+      "role": "Manager",
+      "id": 13
+    },
+    {
+      "email": "admin@mailinater.com",
+      "password": "$2a$10$mbb.BTn00aEVsBBneiHqGur9WPXgpnKsrWW4kVl5Pi9bKh2n/rgY6",
+      "name": "admin 1",
+      "role": "Admin",
+      "id": 14
+    }
+  ],
   "admin": [
     {
       "id": 1,
       "name": "Admin User",
       "role": "admin",
       "email": "admin@example.com",
-      "password": "admin123"
+      "password": "admin123",
+      "projects": []
     },
     {
       "id": 2,
       "name": "Manager User",
       "role": "manager",
       "email": "manager@example.com",
-      "password": "manager123"
+      "password": "manager123",
+      "projects": []
     },
     {
       "email": "admin@wallt.in",
       "password": "$2a$10$Il514S6SWJxXg8CrmqvAtuqhSb8uzbyO/dxjlJfLvlq46VfRRIPES",
       "name": "John Mark",
       "role": "Admin",
-      "id": 3
+      "id": 3,
+      "projects": []
     },
     {
       "email": "a@gmail.com",
       "password": "$2a$10$7U0dL37av1XE9lXS2elNkeLqXMftDjOAy8XDHgicvuRFchpFyilJu",
       "name": "aditi b",
       "role": "Manager",
-      "id": 5
+      "id": 5,
+      "projects": []
     },
     {
       "name": "testa dmin",
       "email": "testadmin@gmail.com",
       "password": "Ars@1234",
       "role": "Admin",
-      "id": 6
+      "id": 6,
+      "projects": []
     }
   ],
   "manager": [
@@ -114,34 +219,79 @@
   ],
   "projects": [
     {
-      "about": "  <img src={TableTrash} alt=\"Delete\" />  <img src={TableTrash} alt=\"Delete\" />  <img src={TableTrash} alt=\"Delete\" />  <img src={TableTrash} alt=\"Delete\" />",
-      "name": "John Mark",
-      "deadline_date": "2024-09-27T18:30:00.000Z",
-      "start_date": "2024-09-11T18:30:00.000Z",
-      "status": "On Going",
+      "status": "Pending",
+      "deadline_date": "2024-09-29T18:30:00.000Z",
+      "start_date": "2024-09-01T18:30:00.000Z",
+      "about": "my testmy testmy testmy testmy testmy testmy test",
+      "name": "my test",
       "created_by": {
-        "name": "testa dmin",
-        "id": 6
+        "id": 2
       },
-      "manager": "",
-      "employe": [],
+      "manager": {
+        "id": 2,
+        "name": "Manager User"
+      },
+      "employe": [
+        {
+          "id": 5,
+          "name": "test manager 1"
+        },
+        {
+          "id": 6,
+          "name": "John Mark"
+        }
+      ],
       "task": [],
-      "id": 1
+      "id": 3
     },
     {
-      "about": "test pro 2 test pro 2test pro 2test pro 2test pro 2",
-      "name": "test pro 256",
+      "about": "Google Summit 2024-Q6Google Summit 2024-Q6Google Summit 2024-Q6Google Summit 2024-Q6",
+      "name": "Google Summit 2024-Q6",
       "deadline_date": "2024-09-29T18:30:00.000Z",
-      "start_date": "2024-09-10T18:30:00.000Z",
+      "start_date": "2024-09-02T18:30:00.000Z",
+      "status": "On Going",
+      "created_by": {
+        "id": 2
+      },
+      "manager": {
+        "id": 2,
+        "name": "Manager User"
+      },
+      "employe": [
+        {
+          "id": 5,
+          "name": "test manager 1"
+        }
+      ],
+      "task": [],
+      "id": 4
+    },
+    {
+      "about": "test use mail1",
+      "name": "test use mail1",
+      "deadline_date": "2024-09-29T18:30:00.000Z",
+      "start_date": "2024-09-01T18:30:00.000Z",
       "status": "Qued",
       "created_by": {
-        "name": "testa dmin",
-        "id": 6
+        "name": "admin 1",
+        "id": 14
       },
-      "manager": "",
-      "employe": [],
+      "manager": {
+        "id": 2,
+        "name": "Manager User"
+      },
+      "employe": [
+        {
+          "id": 9,
+          "name": "Google Summit 2015"
+        },
+        {
+          "id": 10,
+          "name": "my test close"
+        }
+      ],
       "task": [],
-      "id": 2
+      "id": 5
     }
   ],
   "tasks": [],
