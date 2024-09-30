@@ -1,16 +1,6 @@
 {
   "users": [
     {
-      "email": "sumit2@gmail.com",
-      "password": "$2a$10$DoXXEL8K3IaJKQauO2CGwuSnEONPI1DPkvWAXw9Z9KRRnyPuOsG7K",
-      "name": "Google Summit 2024-Q6",
-      "phone": "7878787878",
-      "address": "rajkot patna",
-      "role": "Employee",
-      "projects": [],
-      "id": 8
-    },
-    {
       "email": "abhi@gmail.com",
       "password": "$2a$10$wHzlh2tF.ttKciMJEvM4uebxxmY34XZIdUwj3Klp40SXewRgEvJ1S",
       "name": "Google Summit 2015",
@@ -67,71 +57,24 @@
       "id": 16
     },
     {
-      "email": "t@gmail.com",
-      "name": "test manager",
-      "password": "Ars@1234",
-      "phone": "5656656565",
-      "address": "rajkot gujarat",
-      "role": "Manager",
-      "id": 17
-    },
-    {
       "name": "priyanka bhesaniya",
       "email": "pb617@gmail.com",
       "password": "Ars@1234",
       "role": "Admin",
       "id": 18
+    },
+    {
+      "email": "Priyanka.b@wingsts.com",
+      "name": "new emp",
+      "password": "Ars@1234",
+      "phone": "7878787878",
+      "address": "rajkot gujarat",
+      "role": "Employee",
+      "projects": [],
+      "id": 19
     }
   ],
   "projects": [
-    {
-      "status": "Pending",
-      "deadline_date": "2024-09-29T18:30:00.000Z",
-      "start_date": "2024-09-01T18:30:00.000Z",
-      "about": "my testmy testmy testmy testmy testmy testmy test",
-      "name": "my test",
-      "created_by": {
-        "id": 2
-      },
-      "manager": {
-        "id": 2,
-        "name": "Manager User"
-      },
-      "employe": [
-        {
-          "id": 5,
-          "name": "test manager 1"
-        },
-        {
-          "id": 6,
-          "name": "John Mark"
-        }
-      ],
-      "task": [],
-      "id": 3
-    },
-    {
-      "about": "Google Summit 2024-Q6Google Summit 2024-Q6Google Summit 2024-Q6Google Summit 2024-Q6",
-      "name": "Google Summit 2024-Q6",
-      "deadline_date": "2024-09-29T18:30:00.000Z",
-      "start_date": "2024-09-02T18:30:00.000Z",
-      "status": "On Going",
-      "created_by": {
-        "id": 2
-      },
-      "manager": {
-        "id": 2,
-        "name": "Manager User"
-      },
-      "employe": [
-        {
-          "id": 5,
-          "name": "test manager 1"
-        }
-      ],
-      "task": [],
-      "id": 4
-    },
     {
       "about": "my test logout",
       "name": "my test logout",
@@ -198,14 +141,15 @@
       "task": [
         {
           "id": 1,
-          "title": "creat t1",
+          "title": "creat t1 updated",
           "description": "creat t1 creat t1  v vvvv",
           "assigned_to": {
             "id": 10,
             "name": "my test close"
           },
-          "status": "In Progress",
-          "deadline_date": "2024-09-10"
+          "status": "Completed",
+          "deadline_date": "2024-09-10",
+          "deadline": null
         },
         {
           "id": 2,
@@ -243,7 +187,7 @@
         {
           "id": 5,
           "title": "lt 123",
-          "description": "fetchTasks();",
+          "description": "fetchTasks();updated",
           "assigned_to": {
             "id": 8,
             "name": "Google Summit 2024-Q6"
@@ -271,7 +215,7 @@
             "id": 10,
             "name": "my test close"
           },
-          "status": "In Progress",
+          "status": "Completed",
           "deadline_date": "2024-09-19",
           "deadline": null
         },
