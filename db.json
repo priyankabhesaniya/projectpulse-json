@@ -1,40 +1,6 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Admin User",
-      "role": "Admin",
-      "email": "admin@example.com",
-      "password": "admin123",
-      "projects": []
-    },
-    {
-      "id": 2,
-      "name": "Manager User",
-      "role": "Manager",
-      "email": "manager@example.com",
-      "password": "manager123",
-      "projects": []
-    },
-    {
-      "email": "ben@mailinater.com",
-      "name": "test manager 1",
-      "password": "Ars@1234",
-      "phone": "9904190145",
-      "address": "Rajkot,gujarat",
-      "role": "Employee",
-      "id": 5
-    },
-    {
-      "email": "admin@wallt.in",
-      "name": "John Mark",
-      "password": "Ars@1234",
-      "phone": "7878787878",
-      "address": "tytrrrrrrrrrrrrrrrrrry uyytuyu",
-      "role": "Employee",
-      "id": 6
-    },
-    {
       "email": "sumit2@gmail.com",
       "password": "$2a$10$DoXXEL8K3IaJKQauO2CGwuSnEONPI1DPkvWAXw9Z9KRRnyPuOsG7K",
       "name": "Google Summit 2024-Q6",
@@ -65,24 +31,6 @@
       "id": 10
     },
     {
-      "email": "a9@gmail.com",
-      "password": "$2a$10$5C8854pPXRBxTpsTts4Ll.IZl92XYtMqs6HrvfstRgVSiOuSOUXXS",
-      "name": "Google Summit 2024-Q6",
-      "phone": "7878787878",
-      "address": "jetpur,rajkot",
-      "role": "Employee",
-      "id": 11
-    },
-    {
-      "email": "r09@gmail.com",
-      "password": "$2a$10$q6M.mkinP7kjaCisOs5Td.rEjXpkeGZV2PLV/debtOqJPG4DCB0Qu",
-      "name": "Google Summit 2024-Q6",
-      "phone": "9904190145",
-      "address": "jetpue,rajkot",
-      "role": "Employee",
-      "id": 12
-    },
-    {
       "email": "pbtest@yopmail.com",
       "password": "$2a$10$jZ41H2E3OFFzictcU5ZItODlDPrvHhi.yO.53wXW4QrJ/frf97HXi",
       "name": "test use mail",
@@ -97,124 +45,42 @@
       "name": "admin 1",
       "role": "Admin",
       "id": 14
-    }
-  ],
-  "admin": [
-    {
-      "id": 1,
-      "name": "Admin User",
-      "role": "admin",
-      "email": "admin@example.com",
-      "password": "admin123",
-      "projects": []
     },
     {
-      "id": 2,
-      "name": "Manager User",
-      "role": "manager",
-      "email": "manager@example.com",
-      "password": "manager123",
-      "projects": []
-    },
-    {
-      "email": "admin@wallt.in",
-      "password": "$2a$10$Il514S6SWJxXg8CrmqvAtuqhSb8uzbyO/dxjlJfLvlq46VfRRIPES",
-      "name": "John Mark",
-      "role": "Admin",
-      "id": 3,
-      "projects": []
-    },
-    {
-      "email": "a@gmail.com",
-      "password": "$2a$10$7U0dL37av1XE9lXS2elNkeLqXMftDjOAy8XDHgicvuRFchpFyilJu",
-      "name": "aditi b",
-      "role": "Manager",
-      "id": 5,
-      "projects": []
-    },
-    {
-      "name": "testa dmin",
-      "email": "testadmin@gmail.com",
-      "password": "Ars@1234",
-      "role": "Admin",
-      "id": 6,
-      "projects": []
-    }
-  ],
-  "manager": [
-    {
-      "email": "airbrush@mailinator.com",
-      "name": "John Mark",
-      "password": "Ars@1234",
-      "phone": "9904190909",
-      "address": "rajkot,gujarat",
-      "role": "Employee",
-      "id": 1
-    },
-    {
-      "email": "visitor4@yopmail.com",
-      "name": "Deceased manager",
-      "password": "Ars@1234",
-      "phone": "7878787878",
-      "address": "ahemdabad,gujarat",
-      "role": "Employee",
-      "id": 2
-    },
-    {
-      "email": "projectpulse@gmail.com",
-      "name": "project pulse mng",
-      "password": "Ars@1234",
-      "phone": "9904190856",
-      "address": "Surat,gujarat",
-      "role": "Employee",
-      "id": 3
-    },
-    {
-      "email": "mytest1@gmail.com",
-      "name": "my test mng 1",
-      "password": "Ars@1234",
-      "phone": "9904190145",
-      "address": "rajkot,gujarat",
-      "role": "Employee",
-      "id": 4
-    },
-    {
-      "email": "mark@gmail.com",
-      "name": "mark benjin",
+      "email": "admin@wts.in",
+      "name": "John Markrrrrrrr",
       "password": "Ars@1234",
       "phone": "9904190535",
-      "address": "rajkot india",
+      "address": "rajkot,gujarat",
       "role": "Employee",
-      "id": 5
-    }
-  ],
-  "employee": [
-    {
-      "email": "ben@mailinater.com",
-      "name": "test manager 1",
-      "password": "Ars@1234",
-      "phone": "9904190145",
-      "address": "Rajkot,gujarat",
-      "role": "Employee",
-      "id": 1
+      "projects": [],
+      "id": 15
     },
     {
-      "email": "admin@wallt.in",
-      "name": "John Mark",
+      "email": "admin@ars.in",
+      "name": "John Mark56",
       "password": "Ars@1234",
-      "phone": "7878787878",
-      "address": "tytrrrrrrrrrrrrrrrrrry uyytuyu",
+      "phone": "9904190535",
+      "address": "rajkot gujarta",
       "role": "Employee",
-      "id": 2
+      "projects": [],
+      "id": 16
     },
     {
-      "email": "p@gmail.com",
-      "name": "John Mark",
+      "email": "t@gmail.com",
+      "name": "test manager",
       "password": "Ars@1234",
-      "phone": "7777777777",
+      "phone": "5656656565",
       "address": "rajkot gujarat",
-      "role": "Employee",
-      "id": 3
+      "role": "Manager",
+      "id": 17
+    },
+    {
+      "name": "priyanka bhesaniya",
+      "email": "pb617@gmail.com",
+      "password": "Ars@1234",
+      "role": "Admin",
+      "id": 18
     }
   ],
   "projects": [
@@ -267,11 +133,11 @@
       "id": 4
     },
     {
-      "about": "test use mail1",
-      "name": "test use mail1",
-      "deadline_date": "2024-09-29T18:30:00.000Z",
+      "about": "my test logout",
+      "name": "my test logout",
+      "deadline_date": "2024-09-28T18:30:00.000Z",
       "start_date": "2024-09-01T18:30:00.000Z",
-      "status": "Qued",
+      "status": "Pending",
       "created_by": {
         "name": "admin 1",
         "id": 14
@@ -282,16 +148,146 @@
       },
       "employe": [
         {
+          "id": 8,
+          "name": "Google Summit 2024-Q6"
+        },
+        {
           "id": 9,
           "name": "Google Summit 2015"
+        }
+      ],
+      "task": [
+        {
+          "id": 1,
+          "title": "test 1",
+          "description": "test 1 test 1 vtest 1 vtest 1",
+          "assigned_to": {
+            "id": 9,
+            "name": "Google Summit 2015"
+          },
+          "status": "Pending",
+          "deadline_date": "2024-09-18"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "about": "test proo create",
+      "name": "John Mark",
+      "deadline_date": "2024-09-29T18:30:00.000Z",
+      "start_date": "2024-09-17T18:30:00.000Z",
+      "status": "On Going",
+      "created_by": {
+        "name": "admin 1",
+        "id": 14
+      },
+      "manager": {
+        "id": 13,
+        "name": "test use mail"
+      },
+      "employe": [
+        {
+          "id": 8,
+          "name": "Google Summit 2024-Q6"
         },
         {
           "id": 10,
           "name": "my test close"
         }
       ],
-      "task": [],
-      "id": 5
+      "task": [
+        {
+          "id": 1,
+          "title": "creat t1",
+          "description": "creat t1 creat t1  v vvvv",
+          "assigned_to": {
+            "id": 10,
+            "name": "my test close"
+          },
+          "status": "In Progress",
+          "deadline_date": "2024-09-10"
+        },
+        {
+          "id": 2,
+          "title": "final task",
+          "description": "final task",
+          "assigned_to": {
+            "id": 8,
+            "name": "Google Summit 2024-Q6"
+          },
+          "status": "In Progress",
+          "deadline_date": "2024-09-18"
+        },
+        {
+          "id": 3,
+          "title": "res take",
+          "description": "res take res take v",
+          "assigned_to": {
+            "id": 8,
+            "name": "Google Summit 2024-Q6"
+          },
+          "status": "Pending",
+          "deadline_date": "2024-09-18"
+        },
+        {
+          "id": 4,
+          "title": "res takevres takeres takeres take",
+          "description": "ars takeres",
+          "assigned_to": {
+            "id": 10,
+            "name": "my test close"
+          },
+          "status": "Pending",
+          "deadline_date": "2024-09-28"
+        },
+        {
+          "id": 5,
+          "title": "lt 123",
+          "description": "fetchTasks();",
+          "assigned_to": {
+            "id": 8,
+            "name": "Google Summit 2024-Q6"
+          },
+          "status": "Pending",
+          "deadline_date": "2024-09-11",
+          "deadline": null
+        },
+        {
+          "id": 6,
+          "title": " fetchTasks();",
+          "description": " fetchTasks(); fetchTasks(); fetchTasks(); fetchTasks();",
+          "assigned_to": {
+            "id": 10,
+            "name": "my test close"
+          },
+          "status": "In Progress",
+          "deadline_date": "2024-09-25"
+        },
+        {
+          "id": 7,
+          "title": "task onging",
+          "description": "task onging task onging task onging",
+          "assigned_to": {
+            "id": 10,
+            "name": "my test close"
+          },
+          "status": "In Progress",
+          "deadline_date": "2024-09-19",
+          "deadline": null
+        },
+        {
+          "id": 8,
+          "title": "completed",
+          "description": "completed completed v",
+          "assigned_to": {
+            "id": 8,
+            "name": "Google Summit 2024-Q6"
+          },
+          "status": "Completed",
+          "deadline_date": "2024-09-19"
+        }
+      ],
+      "id": 7
     }
   ],
   "tasks": [],
