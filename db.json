@@ -107,7 +107,7 @@
       "task": [
         {
           "id": 1,
-          "title": "creat t1",
+          "title": "creat t1 updated",
           "description": "creat t1 creat t1  v vvvv",
           "assigned_to": {
             "id": 10,
@@ -153,7 +153,7 @@
         {
           "id": 5,
           "title": "lt 123",
-          "description": "fetchTasks();",
+          "description": "fetchTasks();updated",
           "assigned_to": {
             "id": 8,
             "name": "Google Summit 2024-Q6"
@@ -181,7 +181,7 @@
             "id": 10,
             "name": "my test close"
           },
-          "status": "In Progress",
+          "status": "Completed",
           "deadline_date": "2024-09-19",
           "deadline": null
         },
