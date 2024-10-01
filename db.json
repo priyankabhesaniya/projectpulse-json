@@ -2,7 +2,7 @@
   "users": [
     {
       "email": "sumit2@gmail.com",
-      "password": "$2a$10$DoXXEL8K3IaJKQauO2CGwuSnEONPI1DPkvWAXw9Z9KRRnyPuOsG7K",
+      "password": "Ars@1234",
       "name": "Google Summit 2024-Q6",
       "phone": "7878787878",
       "address": "rajkot patna",
@@ -11,50 +11,13 @@
       "id": 8
     },
     {
-      "email": "abhi@gmail.com",
-      "password": "$2a$10$wHzlh2tF.ttKciMJEvM4uebxxmY34XZIdUwj3Klp40SXewRgEvJ1S",
-      "name": "Google Summit 2015",
-      "phone": "7777777777",
-      "address": "trgty,tytyt,tutu",
-      "role": "Employee",
-      "projects": [],
-      "id": 9
-    },
-    {
-      "email": "close@gmail.com",
-      "password": "$2a$10$Yv6sasaCLCC.dkVUgR1dM.Dr.81dXyAe4HpvLdvYb.mjO9GalmNJ.",
-      "name": "my test close",
-      "phone": "9904190856",
-      "address": "rytryyyyyyyyyytytyvggtr",
-      "role": "Employee",
-      "projects": [],
-      "id": 10
-    },
-    {
       "email": "pbtest@yopmail.com",
-      "password": "$2a$10$jZ41H2E3OFFzictcU5ZItODlDPrvHhi.yO.53wXW4QrJ/frf97HXi",
+      "password": "Ars@1234",
       "name": "test use mail",
       "phone": "9904190145",
       "address": "jetpur,rajkot",
       "role": "Manager",
       "id": 13
-    },
-    {
-      "email": "admin@mailinater.com",
-      "password": "$2a$10$mbb.BTn00aEVsBBneiHqGur9WPXgpnKsrWW4kVl5Pi9bKh2n/rgY6",
-      "name": "admin 1",
-      "role": "Admin",
-      "id": 14
-    },
-    {
-      "email": "admin@wts.in",
-      "name": "John Markrrrrrrr",
-      "password": "Ars@1234",
-      "phone": "9904190535",
-      "address": "rajkot,gujarat",
-      "role": "Employee",
-      "projects": [],
-      "id": 15
     },
     {
       "email": "admin@ars.in",
@@ -76,104 +39,46 @@
       "id": 17
     },
     {
-      "name": "priyanka bhesaniya",
-      "email": "pb617@gmail.com",
-      "password": "Ars@1234",
+      "name": "priyanka admin",
+      "email": "pbadmin@gmail.com",
+      "password": "Project@1234",
+      "phone": "9090909090",
       "role": "Admin",
-      "id": 18
+      "id": 22
+    },
+    {
+      "email": "pbmanager@gmail.com",
+      "name": "priyanka manager ",
+      "password": "Project@1234",
+      "phone": "9904190535",
+      "address": "rajkot gujarat",
+      "role": "Manager",
+      "id": 23
+    },
+    {
+      "email": "pbemployee@gmail.com",
+      "name": "priyanka employee",
+      "password": "Project@1234",
+      "phone": "7777777777",
+      "address": "rajkot gujarat",
+      "role": "Employee",
+      "projects": [],
+      "id": 24
+    },
+    {
+      "email": "kt@gmail.com",
+      "password": "Ars@1234",
+      "role": "Employee",
+      "name": "krutarthi trivedi",
+      "phone": "9904190535",
+      "address": "rajkot gujarat",
+      "id": 25
     }
   ],
   "projects": [
     {
-      "status": "Pending",
-      "deadline_date": "2024-09-29T18:30:00.000Z",
-      "start_date": "2024-09-01T18:30:00.000Z",
-      "about": "my testmy testmy testmy testmy testmy testmy test",
-      "name": "my test",
-      "created_by": {
-        "id": 2
-      },
-      "manager": {
-        "id": 2,
-        "name": "Manager User"
-      },
-      "employe": [
-        {
-          "id": 5,
-          "name": "test manager 1"
-        },
-        {
-          "id": 6,
-          "name": "John Mark"
-        }
-      ],
-      "task": [],
-      "id": 3
-    },
-    {
-      "about": "Google Summit 2024-Q6Google Summit 2024-Q6Google Summit 2024-Q6Google Summit 2024-Q6",
-      "name": "Google Summit 2024-Q6",
-      "deadline_date": "2024-09-29T18:30:00.000Z",
-      "start_date": "2024-09-02T18:30:00.000Z",
-      "status": "On Going",
-      "created_by": {
-        "id": 2
-      },
-      "manager": {
-        "id": 2,
-        "name": "Manager User"
-      },
-      "employe": [
-        {
-          "id": 5,
-          "name": "test manager 1"
-        }
-      ],
-      "task": [],
-      "id": 4
-    },
-    {
-      "about": "my test logout",
-      "name": "my test logout",
-      "deadline_date": "2024-09-28T18:30:00.000Z",
-      "start_date": "2024-09-01T18:30:00.000Z",
-      "status": "Pending",
-      "created_by": {
-        "name": "admin 1",
-        "id": 14
-      },
-      "manager": {
-        "id": 2,
-        "name": "Manager User"
-      },
-      "employe": [
-        {
-          "id": 8,
-          "name": "Google Summit 2024-Q6"
-        },
-        {
-          "id": 9,
-          "name": "Google Summit 2015"
-        }
-      ],
-      "task": [
-        {
-          "id": 1,
-          "title": "test 1",
-          "description": "test 1 test 1 vtest 1 vtest 1",
-          "assigned_to": {
-            "id": 9,
-            "name": "Google Summit 2015"
-          },
-          "status": "Pending",
-          "deadline_date": "2024-09-18"
-        }
-      ],
-      "id": 6
-    },
-    {
       "about": "test proo create",
-      "name": "John Mark",
+      "name": "project pulse pro",
       "deadline_date": "2024-09-29T18:30:00.000Z",
       "start_date": "2024-09-17T18:30:00.000Z",
       "status": "On Going",
@@ -193,6 +98,10 @@
         {
           "id": 10,
           "name": "my test close"
+        },
+        {
+          "id": 15,
+          "name": "John Markrrrrrrr"
         }
       ],
       "task": [
@@ -204,7 +113,7 @@
             "id": 10,
             "name": "my test close"
           },
-          "status": "In Progress",
+          "status": "Completed",
           "deadline_date": "2024-09-10"
         },
         {
@@ -215,7 +124,7 @@
             "id": 8,
             "name": "Google Summit 2024-Q6"
           },
-          "status": "In Progress",
+          "status": "Completed",
           "deadline_date": "2024-09-18"
         },
         {
@@ -223,11 +132,12 @@
           "title": "res take",
           "description": "res take res take v",
           "assigned_to": {
-            "id": 8,
-            "name": "Google Summit 2024-Q6"
+            "id": 15,
+            "name": "John Markrrrrrrr"
           },
-          "status": "Pending",
-          "deadline_date": "2024-09-18"
+          "status": "In Progress",
+          "deadline_date": "2024-09-18",
+          "deadline": null
         },
         {
           "id": 4,
@@ -288,6 +198,163 @@
         }
       ],
       "id": 7
+    },
+    {
+      "about": "WTS VERSE WTS VERSEWTS VERSEWTS VERSEWTS VERSE",
+      "name": "WTS VERSE Pro",
+      "deadline_date": "2024-10-30T18:30:00.000Z",
+      "start_date": "2024-10-15T18:30:00.000Z",
+      "status": "On Going",
+      "created_by": {
+        "name": "admin 1",
+        "id": 14
+      },
+      "manager": {
+        "id": 17,
+        "name": "test manager"
+      },
+      "employe": [
+        {
+          "id": 8,
+          "name": "Google Summit 2024-Q6"
+        },
+        {
+          "id": 10,
+          "name": "my test close"
+        },
+        {
+          "id": 15,
+          "name": "John Markrrrrrrr"
+        }
+      ],
+      "task": [
+        {
+          "id": 1,
+          "title": "task 1",
+          "description": "Add routing using react",
+          "assigned_to": {
+            "id": 8,
+            "name": "Google Summit 2024-Q6"
+          },
+          "status": "Completed",
+          "deadline_date": "2024-10-02",
+          "deadline": null
+        },
+        {
+          "id": 2,
+          "title": "task 2",
+          "description": "crate dahboard and api",
+          "assigned_to": {
+            "id": 8,
+            "name": "Google Summit 2024-Q6"
+          },
+          "status": "In Progress",
+          "deadline_date": "2024-10-29",
+          "deadline": null
+        },
+        {
+          "id": 3,
+          "title": "task 3",
+          "description": "create authentication",
+          "assigned_to": {
+            "id": 10,
+            "name": "my test close"
+          },
+          "status": "Pending",
+          "deadline_date": "2024-10-03",
+          "deadline": null
+        },
+        {
+          "id": 4,
+          "title": "task 4",
+          "description": "add users and test flow",
+          "assigned_to": {
+            "id": 8,
+            "name": "Google Summit 2024-Q6"
+          },
+          "status": "Pending",
+          "deadline_date": "2024-10-17",
+          "deadline": null
+        }
+      ],
+      "id": 8
+    },
+    {
+      "about": "brockrage - property selling",
+      "name": "broon",
+      "deadline_date": "2024-10-30T18:30:00.000Z",
+      "start_date": "2024-10-07T18:30:00.000Z",
+      "status": "Pending",
+      "created_by": {
+        "name": "priyanka admin",
+        "id": 22
+      },
+      "manager": {
+        "id": 23,
+        "name": "priyanka manager "
+      },
+      "employe": [
+        {
+          "id": 8,
+          "name": "Google Summit 2024-Q6"
+        },
+        {
+          "id": 24,
+          "name": "priyanka employee"
+        },
+        {
+          "id": 25,
+          "name": "krutarthi trivedi"
+        }
+      ],
+      "task": [
+        {
+          "id": 1,
+          "title": "bug 1",
+          "description": "area wise filter is not working",
+          "assigned_to": {
+            "id": 24,
+            "name": "priyanka employee"
+          },
+          "status": "Pending",
+          "deadline_date": "2024-10-10"
+        },
+        {
+          "id": 2,
+          "title": "bug 2",
+          "description": "need to remove line below tittle",
+          "assigned_to": {
+            "id": 24,
+            "name": "priyanka employee"
+          },
+          "status": "In Progress",
+          "deadline_date": "2024-10-15",
+          "deadline": null
+        },
+        {
+          "id": 3,
+          "title": "bug 5",
+          "description": "add default catch route",
+          "assigned_to": {
+            "id": 8,
+            "name": "Google Summit 2024-Q6"
+          },
+          "status": "In Progress",
+          "deadline_date": "2024-10-16"
+        },
+        {
+          "id": 4,
+          "title": "bug 2",
+          "description": "improve api res time",
+          "assigned_to": {
+            "id": 25,
+            "name": "krutarthi trivedi"
+          },
+          "status": "Completed",
+          "deadline_date": "2024-10-25"
+        }
+      ],
+      "id": 9
     }
   ],
   "tasks": [],
