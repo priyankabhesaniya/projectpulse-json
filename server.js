@@ -8,15 +8,13 @@ const app = jsonServer.create();
 const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
 
-// Secret key for JWT
 const SECRET_KEY = 'mnbvcxz';
 
-// Apply middlewares (CORS, static files, logging, etc.)
 app.use(middlewares);
 app.use(cors());
 app.use(jsonServer.bodyParser);
 
-// Custom login route
+
 app.post('/custom-login', async (req, res) => {
   const { email, password, role } = req.body;
   const user = router.db.get('users').find({ email }).value();
@@ -45,43 +43,40 @@ app.post('/custom-login', async (req, res) => {
   res.status(200).json({ token, user });
 });
 app.post('/users', async (req, res) => {
-  const { email, password, role,phone,name } = req.body;
+  const { email, password, role, phone, name } = req.body;
 
-  // Check if the user with the given email already exists
   const user = router.db.get('users').find({ email }).value();
 
   if (user) {
     return res.status(401).json({ error: 'User with this email already exists' });
   } else {
     const users = router.db.get('users').value();
-    // Create a new user object
+
     const newUser = {
       email,
       password,
       role,
       name,
       phone,
-      address:req?.body?.address ? req?.body?.address : "",
+      address: req?.body?.address ? req?.body?.address : "",
       id: users.length > 0 ? Math.max(...users.map(u => u.id)) + 1 : 1 // Use a unique ID; you can implement a better ID generation strategy if needed
     };
 
-    // Add the new user to the users array in the JSON Server
-    router.db.get('users').push(newUser).write(); // Save the new user to the database
 
-    // Respond with the created user
+    router.db.get('users').push(newUser).write();
+
+
     return res.status(201).json(newUser);
   }
 });
 
-// Authentication middleware for all routes (except custom ones)
 app.use((req, res, next) => {
   console.log("🚀 ~ app.use ~ req:", req)
-  console.log(req.headers,'req.headers');
-  
+  console.log(req.headers, 'req.headers');
+
   if (req.path === '/custom-login') {
     return next();
   }
-  // Skip token check for POST requests to /users, but apply for other methods
   if (req.path === '/users' && (req.method === 'POST' || req.method === 'post')) {
     return next();
   }
@@ -91,29 +86,23 @@ app.use((req, res, next) => {
     return res.status(403).json({ error: 'No token provided' });
   }
 
-  const token = authHeader.split(' ')[1]; // Extract the token part of the header
-// console.log(token,'token');
+  const token = authHeader.split(' ')[1];
 
-  // Verify the JWT token
   jwt.verify(token, SECRET_KEY, (err, decoded) => {
-    console.log('verifying',token);
+    console.log('verifying', token);
     if (err) {
-      console.log(err,'err-------');
-      
+      console.log(err, 'err-------');
+
       return res.status(403).json({ error: 'Invalid or expired token' });
     }
-    // console.log('verified',token);
-    // Attach decoded user info to the request
+
     req.user = decoded;
-    next(); // Proceed to the next middleware or route
+    next();
   });
 });
 
-// Serve JSON server and custom routes
-// app.use(auth);  // Add this if you want to use `json-server-auth` to manage roles
 app.use(router);
 
-// Start the server
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`JSON Server running on http://localhost:${PORT}`);
